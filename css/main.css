@@ -1,0 +1,48 @@
+main .row {
+  margin-bottom: 20px;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	color: #252525;
+}
+
+/** Title **/
+
+header {
+  background-color: #eebb44;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+header p {
+  margin-top: 0.5em;
+}
+
+
+/**Card**/
+.card {
+  border: 1px solid #e6e6e6;
+  background-color: white;
+}
+
+.charname {
+	font-weight: bolder;
+	font-size: 16px;
+	padding-left: 20px;
+}
+
+
+.chardesc{
+	padding-left: 20px;
+	position: relative;
+	bottom: 12px; 
+}
+
+.card > img {
+	width: 100%;
+}
